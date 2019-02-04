@@ -9,7 +9,7 @@ $ git clone https://github.com/SAXTEN2011/USHistoryVocab.git && npm install
 ```
 
 # Usage
-Firstly, populate the ```rawWords``` variable with your vocab list, each term separated by a line break. The ordinal numbers will be parsed out by the program.
+Firstly, populate the ```rawWords``` variable in ```app.js``` with your vocab list, each term separated by a line break. The ordinal numbers will be parsed out by the program.
 Example:
 ```JavaScript
 let rawWords = `
