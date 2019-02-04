@@ -1,0 +1,11 @@
+        <div id="glossary_term_7425"
+             class="glossary_words_3 glossary_words_js hide">
+          <span>369th Regiment</span> in World War I, an African American regiment of the U.S. Army
+          <br />
+          
+        </div>
+        <div id="glossary_term_7275"
+             class="glossary_words_5 glossary_words_js hide">
+          <span>54th Massachusetts Regiment</span> in the Civil War, the first entirely African American regiment of the Union Army
+          <br />
+          
