@@ -5,7 +5,7 @@
 # Installation
 Clone this repository, and install dependencies
 ```bash
-$ git clone https://github.com/SAXTEN2011/USHistoryVocab.git && git install
+$ git clone https://github.com/SAXTEN2011/USHistoryVocab.git && npm install
 ```
 
 # Usage
