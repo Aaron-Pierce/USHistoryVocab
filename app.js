@@ -1,23 +1,24 @@
-let rawWords = `1. American Civil Liberties Union
-2. Back to Africa Movement
-3. Communism
-4. Consolidation
-5. Consumer Price Index
-6. Consumer culture
-7. Creationism
-8. Credit
-9. Flapper
-10. Fundamentalist
-11. Harlem Renaissance
-12. Indian Citizenship Act of 1924
-13. Installment Buying
+let rawWords = `
+1. Fascism
+2. Nationalism
+3. Racism
+4. Militarism
+5. Appeasement
+6. Axis Powers
+7. Allied Powers
+8. Belligerent
+9. Nazism
+10. Lebensraum
+11. Propaganda
+12. Anti-Semitic
+13. Lend Lease Program
 14. Isolationism
-15. Jazz Age
-16. Lost Generation
-17. Kellogg Briand Pact
-18. Modernist
-19. Normalcy
-20. Recession
+15. Adolf Hitler
+16. Hideki Tojo
+17. Benito Mussolini
+18. Winston Churchill
+19. Neutrality Acts
+20. Pearl Harbor
 `
 
 const fs = require('fs');

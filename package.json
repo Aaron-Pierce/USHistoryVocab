@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browserify": "^16.2.3",
     "opn": "^5.4.0",
     "prompt": "^1.0.0",
     "robot-js": "^2.0.0",
