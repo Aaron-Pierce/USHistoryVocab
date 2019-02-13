@@ -1,34 +1,24 @@
 
 # US History Vocab Scraper
-### A nodejs program to define all of your TeachTCI vocab assignments from Mrs. Markman without having to search the book
 
-# Installation
-Clone this repository, and install dependencies
-```bash
-$ git clone https://github.com/SAXTEN2011/USHistoryVocab.git && npm install
-```
+### A website to define all of your TeachTCI vocab assignments from Mrs. Markman without having to search the book
 
 # Usage
-Firstly, populate the ```rawWords``` variable in ```app.js``` with your vocab list, each term separated by a line break. The ordinal numbers will be parsed out by the program.
+
+From the Word doc posted on google classroom, copy and paste the vocab list into the textarea on the website. You can leave the ordinal numbers before the words, just so long as each term is on its own line.
 Example:
-```JavaScript
-let rawWords = `
+
+```text
 1. American Civil Liberties Union
 2. Back to Africa Movement
 3. Communism
 4. Consolidation
 5. Consumer Price Index
-` 
-```
-After populating the variable, run app.js with node.
-
-```bash
-$ node app.js
 ```
 
-The program will output the definitions of all of the words found in the dictionary to the terminal. Some words aren't in the book's glossary, so a google search query will be performed in a new tab for each word not in the glossary.
+After pasting in the list, hit submit, and the right column will populate with definitions. Some terms may not be in the TeachTCI glossary, so a link to a google search will be returned instead of a definition.
+
 
 # API... ish
-To allow searching the glossary offline, and to not worry about cors and http requests, I scraped the TeachTCI glossary. The hash table, created from taking a sha256 hash of the lowercase, unwhitespaced term, can be found in glossary.json, free to use.
 
-If you wish to store the glossary data some other way, html.txt contains the source html of the TeachTCI glossary page, and parse.js contains the script I used to generate glossary.json. You can modify this however you wish to create an encoding scheme of your own. sample.txt is included so that you can test parsing methods without wasting processing time iterating over the large source file.
+In order to match words from the glossary, the glossary had to be scraped and converted to JSON. You can find instructions on how to utilise this for other websites/programming projects in the ```./scripts``` directory

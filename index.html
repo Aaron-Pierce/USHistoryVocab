@@ -12,22 +12,32 @@
     <title>US History Vocab</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js'></script>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">US History Vocab Definer</a>
+        </div>
+    </nav>
     <div id="main">
         <div id="header">
-            <h1>US History Vocab</h1>
-            <hr>
-        </div>
-        <div id="content">
+            <h2>Terms</h2>
             <textarea placeholder="Paste the vocab list here, each term on its own line" id="textarea"></textarea>
             <br>
-            <button id="submit">Submit</button>
+            <button id="submit" class="btn">Submit</button>
+            <!-- <hr> -->
+        </div>
+        <div id="content">
+            <h2>Definitions</h2>
+            <p>Definitions will appear here after the vocab list is copied in and submitted</p>
+            <!-- <hr> -->
         </div>
     </div>
     <script src="./resources/glossary.js"></script>
