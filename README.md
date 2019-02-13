@@ -1,7 +1,7 @@
 
-# US History Vocab Scraper
+# [US History Vocab Scraper](https://saxten2011.github.io/USHistoryVocab/)
 
-### A website to define all of your TeachTCI vocab assignments from Mrs. Markman without having to search the book
+## A website to define all of your TeachTCI vocab assignments from Mrs. Markman without having to search the book
 
 # Usage
 
